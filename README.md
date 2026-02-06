@@ -11,7 +11,7 @@ This utility helps troubleshoot the **"x509: invalid certificate policies"** or 
 * **OpenSSL** (optional, for manual inspection).
 
 ## 2. Setup
-Download the `check_bundle.go`code
+Download the `check_ca_bundle.go`code
 
 ## 3. How to get the CA Bundle
 To extract the root CA bundle from your OpenShift cluster, run:
