@@ -24,7 +24,7 @@ oc get configmap kube-root-ca.crt -o jsonpath='{.data.ca\.crt}' > ca-all.crt
 ## 4. Usage
 Run the validator against the extracted file:
 ```bash
-go run check_bundle.go ca-all.crt
+go run check_ca_bundle.go ca-all.crt
 ```
 
 ### Expected Output
